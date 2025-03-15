@@ -172,3 +172,22 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore virtual environments
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore IDE configuration files (e.g., VSCode, PyCharm, etc.)
+.vscode/
+
+# Ignore OS-specific files (Windows, macOS)
+.DS_Store
+Thumbs.db
+
+# Ignore build and temporary files
+*.log
+*.tmp
